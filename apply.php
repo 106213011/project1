@@ -93,5 +93,8 @@
 
         <input type="submit" value="Apply"/>
 
+    </form>
+
+    <?php include 'footer.inc'; ?>
 </body>
 </html>
