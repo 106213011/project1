@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="About page">
-    <meta name="keywords" content="job, work, about">
-    <meta name="author" content="Assignment Part 1 (106213011)">
-    <title>About Us - ALIMSON Tech</title>
-    <link href="styles/styles.css" rel="stylesheet">
-</head>
+<?php include 'header.inc'; ?>
 
 <body>
   <header class="hero">
@@ -16,20 +9,7 @@
     <p>Meet the team behind ALIMSON Tech</p>
   </header>
 
-  <nav class="navbar">
-    <a href="index.html">Home</a> 
-    <a href="jobs.html">Job Openings</a> 
-    <a href="apply.html">Job Application</a> 
-    <a href="about.html" class="active">About us</a>
-    <div class="contact">
-      <a href="#">Contact</a>
-      <ul class="submenu">
-        <li><a href="mailto:info@alimson.com">Email Us</a></li>
-        <li><a href="tel:+60123456789">Call Us</a></li>
-        <li><a href="contact.html">Contact Form</a></li>
-      </ul>
-    </div>
-  </nav>
+  <?php include 'nav.inc'; ?>
 
   <!-- Group Details 
   <section class="features">

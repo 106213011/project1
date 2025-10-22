@@ -2,10 +2,10 @@
 <html>
 <body>
     <nav class="navbar">
-        <a href="index.html" class="active">Home</a> 
-        <a href="jobs.html">Job Openings</a> 
-        <a href="apply.html" >Job Application</a> 
-        <a href="about.html" >About us</a>
+        <a href="index.php">Home</a> 
+        <a href="jobs.php">Job Openings</a> 
+        <a href="apply.php" >Job Application</a> 
+        <a href="about.php" >About us</a>
         <div class="contact">
             <a href="#">Contact</a>
             <ul class="submenu">

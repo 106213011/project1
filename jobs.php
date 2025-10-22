@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Descriptions of jobs available">
-    <meta name="keywords" content="HTML, webpage">
-    <meta name="author" content="Assignment Part 1 (106213011)">
-    <title>Job Opening - ALIMSON Tech</title>
-    <link href="styles/styles.css" rel="stylesheet">
-</head>
+<?php include 'header.inc'; ?>
 <body>
     <header class="hero">
         <img src="images/ALIMSON-LOGO.png" alt="Website Logo" class="mini-logo">
@@ -15,20 +8,7 @@
         <p>Jobs <strong>available</strong> for application.</p>
     </header>
 
-    <nav class="navbar">
-        <a href="index.html">Home</a> 
-        <a href="jobs.html" class="active">Job Openings</a> 
-        <a href="apply.html">Job Application</a> 
-        <a href="about.html">About us</a>
-        <div class="contact">
-            <a href="#">Contact</a>
-            <ul class="submenu">
-                <li><a href="mailto:info@alimson.com">Email Us</a></li>
-                <li><a href="tel:+60123456789">Call Us</a></li>
-                <li><a href="contact.html">Contact Form</a></li>
-            </ul>
-        </div>
-    </nav>
+    <?php include 'nav.inc'; ?>
 
     <!-- First Job -->
     <section class="row">
@@ -82,6 +62,7 @@
                 <li>Strong communication skills with the ability to articulate complex technical concepts to non-technical stakeholders.</li>
                 <li>Able to work with diverse teams.</li>
             </ul>
+            <p><a href="https://share.google/DTBECN0BKDWYvEbx9">Network Administrator Reference</a></p>
         </section>
     </section>
 
@@ -121,13 +102,12 @@
                 <li>Strong analytical and problem-solving skills.</li>
                 <li>Able to work under pressure in fast-paced working environment.</li>
             </ul>
+            <p><a href="https://my.jobstreet.com/job/86617837?type=standard&ref=search-standalone#sol=c00f6511517bd7093b6d8724932027faa41e6b17">Cybersecurity Specialist Reference</a></p>
         </section>
     </section>
 
     <footer>
         <p>&copy; 2025 ALIMSON Tech.</p>
-        <p><a href="https://share.google/DTBECN0BKDWYvEbx9">Network Administrator Reference</a></p>
-        <p><a href="https://my.jobstreet.com/job/86617837?type=standard&ref=search-standalone#sol=c00f6511517bd7093b6d8724932027faa41e6b17">Cybersecurity Specialist Reference</a></p>
         <p><a href="https://limuzuu.atlassian.net/jira/software/projects/AL/boards/34?atlOrigin=eyJpIjoiYTlkZmQ2Nzk1ODhlNDI5OThjMWMzYjMzNTk4ODFlY2MiLCJwIjoiaiJ9" target="_blank">Jira link</a>  </p>
         <p><a href="https://github.com/106213011/project1.git" target="_blank">GitHub Link</a></p>
     </footer>

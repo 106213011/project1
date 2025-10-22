@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Form application for jobs available">
-    <meta name="keywords" content="HTML, webpage">
-    <meta name="author" content="Assignment Part 1 (106213011)">
-    <title>Job Application - ALIMSON Tech</title>
-    <link href="styles/styles.css" rel="stylesheet">
-</head>
+<?php include 'header.inc'; ?>
 
 <body>
     <header class="hero">
@@ -15,20 +8,7 @@
         <h1 id="logo">Job Application</h1>
         <p>Form to <strong>apply</strong> for jobs.</p>
     </header>
-    <nav class="navbar">
-        <a href="index.html">Home</a> 
-        <a href="jobs.html">Job Openings</a> 
-        <a href="apply.html" class="active">Job Application</a> 
-        <a href="about.html" >About us</a>
-        <div class="contact">
-            <a href="#">Contact</a>
-            <ul class="submenu">
-                <li><a href="mailto:info@alimson.com">Email Us</a></li>
-                <li><a href="tel:+60123456789">Call Us</a></li>
-                <li><a href="contact.html">Contact Form</a></li>
-            </ul>
-        </div>
-    </nav>
+    <?php include 'nav.inc'; ?>
 
     <form method="post" action="https://mercury.swin.edu.au/it000000/formtest.php">
     
